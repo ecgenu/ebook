@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace genu\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
+use genu\Http\Requests;
 
 class EbookController extends Controller
 {

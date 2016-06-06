@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace genu;
 
 use Illuminate\Database\Eloquent\Model;
 
