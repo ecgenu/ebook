@@ -8,7 +8,7 @@ class EbookController extends Controller
     public function lista() {
         $funcionarios = DB::select('select * from funcionarios');
         
-        return view('lista')->with('funcionarios',$funcionarios);
+        return view('lista')->withFuncionarios($funcionarios);
         
     }
 }

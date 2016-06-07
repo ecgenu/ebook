@@ -1,8 +1,12 @@
 <html>
     <body
-
-        <h1>Lista do Ebook</h1>
-        <table>
+<head>
+<link href="/css/app.css" rel="stylesheet">
+    <title>Ebook</title>
+</head>
+<div class="container">        
+<h1>Lista dos Contatos</h1>
+        <table class="table table-striped table-bordered table-hover">
             <tr>
                 <td>Nome</td>
                 <td>Email</td>
@@ -17,7 +21,8 @@
                 <td><?= $f->id_secao ?></td>
                 <td><?= $f->fone ?></td>
             </tr>
-          <?php endforeach  ?>  
+          <?php endforeach  ?>
+</div>  
         </table>
 
 
