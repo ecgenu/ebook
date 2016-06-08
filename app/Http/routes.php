@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 Route::get('lista', 'EbookController@lista');
+Route::get('/mostra/{id}','EbookController@mostra')->where('id', '[0-9]+');
